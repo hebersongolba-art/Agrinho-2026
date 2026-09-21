@@ -1417,86 +1417,88 @@ select,input,textarea{max-width:100%;box-sizing:border-box}
 
 
 <!-- AGROSEGURO-PRODUTOS-SUSTENTAVEIS-INICIO -->
-<div id="catalogo-produtos-sustentaveis" class="card" style="margin-top:30px; padding:24px;">
+<div id="catalogo-produtos-sustentaveis" class="card" style="margin-top:30px; padding:24px; font-family: sans-serif;">
   <div style="text-align:center; margin-bottom:24px;">
     <h3>🛒 Produtos indicados para ajudar o produtor</h3>
     <p>Confira produtos e serviços relacionados às soluções da calculadora. Os preços são estimativas ilustrativas e podem variar conforme a propriedade e o fornecedor.</p>
   </div>
 
-  <div class="catalogo-produtos-grid">
-    <article class="produto-sustentavel">
-      <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=900&q=80" alt="Armazenamento digital e backup seguro" loading="lazy">
-      <div class="produto-sustentavel-conteudo">
-        <span class="produto-sustentavel-categoria">Proteção de dados</span>
-        <h4>Kit de backup seguro</h4>
-        <p>Armazenamento protegido para documentos, relatórios, registros e dados importantes da propriedade.</p>
-        <strong>R$ 1.200,00</strong>
-        <button type="button" class="selecionar-produto-sustentavel" data-produto="Kit de backup seguro" data-preco="1200">Selecionar produto</button>
+  <div class="catalogo-produtos-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+    
+    <!-- 1. PROTEÇÃO DE DADOS -->
+    <article class="produto-sustentavel" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between;">
+      <img src="image_r7zEdg.png" alt="Armazenamento digital e backup seguro" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px;">
+      <div class="produto-sustentavel-conteudo" style="margin-top: 12px; flex-grow: 1; display: flex; flex-direction: column;">
+        <span class="produto-sustentavel-categoria" style="font-size: 12px; color: #666; text-transform: uppercase;">Proteção de dados</span>
+        <h4 style="margin: 8px 0;">Kit de backup seguro</h4>
+        <p style="font-size: 14px; color: #444; margin: 0 0 12px 0; flex-grow: 1;">Armazenamento protegido para documentos, relatórios, registros e dados importantes da propriedade.</p>
+        <strong style="font-size: 18px; color: #237344; display: block; margin-bottom: 12px;">R$ 1.200,00</strong>
+        <button type="button" class="selecionar-produto-sustentavel" data-produto="Kit de backup seguro" data-preco="1200" style="width: 100%; border: 1px solid #237344; background: transparent; color: #237344; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 8px;">Selecionar produto</button>
+        <a href="https://netshopinformatica.com.br" target="_blank" style="display:block; text-align:center; background:#237344; color:#fff; font-weight:bold; text-decoration:none; padding: 10px; border-radius: 6px; font-size: 14px;">Compre já</a>
       </div>
     </article>
 
-    <article class="produto-sustentavel">
-      <img src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=900&q=80" alt="Nobreak e proteção elétrica" loading="lazy">
-      <div class="produto-sustentavel-conteudo">
-        <span class="produto-sustentavel-categoria">Proteção elétrica</span>
-        <h4>Nobreak e filtro de proteção</h4>
-        <p>Ajuda a proteger computadores, roteadores, câmeras, sensores e outros equipamentos contra oscilações.</p>
-        <strong>R$ 850,00</strong>
-        <button type="button" class="selecionar-produto-sustentavel" data-produto="Nobreak e filtro de proteção" data-preco="850">Selecionar produto</button>
+    <!-- 2. PROTEÇÃO ELÉTRICA -->
+    <article class="produto-sustentavel" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between;">
+      <img src="image_r1Zz6A.png" alt="Nobreak e proteção elétrica" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px;">
+      <div class="produto-sustentavel-conteudo" style="margin-top: 12px; flex-grow: 1; display: flex; flex-direction: column;">
+        <span class="produto-sustentavel-categoria" style="font-size: 12px; color: #666; text-transform: uppercase;">Proteção elétrica</span>
+        <h4 style="margin: 8px 0;">Nobreak e filtro de proteção</h4>
+        <p style="font-size: 14px; color: #444; margin: 0 0 12px 0; flex-grow: 1;">Ajuda a proteger computadores, roteadores, câmeras, sensores e outros equipamentos contra oscilações.</p>
+        <strong style="font-size: 18px; color: #237344; display: block; margin-bottom: 12px;">R$ 850,00</strong>
+        <button type="button" class="selecionar-produto-sustentavel" data-produto="Nobreak e filtro de proteção" data-preco="850" style="width: 100%; border: 1px solid #237344; background: transparent; color: #237344; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 8px;">Selecionar produto</button>
+        <a href="https://netshopinformatica.com.br" target="_blank" style="display:block; text-align:center; background:#237344; color:#fff; font-weight:bold; text-decoration:none; padding: 10px; border-radius: 6px; font-size: 14px;">Compre já</a>
       </div>
     </article>
 
-    <article class="produto-sustentavel">
-      <img src="https://images.unsplash.com/photo-1563514227147-6d2ff665a6a0?auto=format&fit=crop&w=900&q=80" alt="Sensores de umidade e irrigação inteligente" loading="lazy">
-      <div class="produto-sustentavel-conteudo">
-        <span class="produto-sustentavel-categoria">Economia de água</span>
-        <h4>Kit de sensores de umidade</h4>
-        <p>Monitoramento do solo para apoiar uma irrigação mais eficiente e reduzir desperdícios de água.</p>
-        <strong>R$ 1.800,00</strong>
-        <button type="button" class="selecionar-produto-sustentavel" data-produto="Kit de sensores de umidade" data-preco="1800">Selecionar produto</button>
+    <!-- 3. ECONOMIA DE ÁGUA -->
+    <article class="produto-sustentavel" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between;">
+      <img src="image_RxQvdZ.png" alt="Sensores de umidade e irrigação inteligente" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px;">
+      <div class="produto-sustentavel-conteudo" style="margin-top: 12px; flex-grow: 1; display: flex; flex-direction: column;">
+        <span class="produto-sustentavel-categoria" style="font-size: 12px; color: #666; text-transform: uppercase;">Economia de água</span>
+        <h4 style="margin: 8px 0;">Kit de sensores de umidade</h4>
+        <p style="font-size: 14px; color: #444; margin: 0 0 12px 0; flex-grow: 1;">Monitoramento do solo para apoiar uma irrigação mais eficiente e reduzir desperdícios de água.</p>
+        <strong style="font-size: 18px; color: #237344; display: block; margin-bottom: 12px;">R$ 1.800,00</strong>
+        <button type="button" class="selecionar-produto-sustentavel" data-produto="Kit de sensores de umidade" data-preco="1800" style="width: 100%; border: 1px solid #237344; background: transparent; color: #237344; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 8px;">Selecionar produto</button>
+        <a href="https://netshopinformatica.com.br" target="_blank" style="display:block; text-align:center; background:#237344; color:#fff; font-weight:bold; text-decoration:none; padding: 10px; border-radius: 6px; font-size: 14px;">Compre já</a>
       </div>
     </article>
 
-    <article class="produto-sustentavel">
-      <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=900&q=80" alt="Sistema de energia solar rural" loading="lazy">
-      <div class="produto-sustentavel-conteudo">
-        <span class="produto-sustentavel-categoria">Energia limpa</span>
-        <h4>Kit de energia solar rural</h4>
-        <p>Solução para apoiar a alimentação de sensores, câmeras, roteadores e equipamentos do campo.</p>
-        <strong>R$ 8.000,00</strong>
-        <button type="button" class="selecionar-produto-sustentavel" data-produto="Kit de energia solar rural" data-preco="8000">Selecionar produto</button>
+    <!-- 4. ENERGIA LIMPA -->
+    <article class="produto-sustentavel" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between;">
+      <img src="image_KgT9Cn.png" alt="Sistema de energia solar rural" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px;">
+      <div class="produto-sustentavel-conteudo" style="margin-top: 12px; flex-grow: 1; display: flex; flex-direction: column;">
+        <span class="produto-sustentavel-categoria" style="font-size: 12px; color: #666; text-transform: uppercase;">Energia limpa</span>
+        <h4 style="margin: 8px 0;">Kit de energia solar rural</h4>
+        <p style="font-size: 14px; color: #444; margin: 0 0 12px 0; flex-grow: 1;">Solução para apoiar a alimentação de sensores, câmeras, roteadores e equipamentos do campo.</p>
+        <strong style="font-size: 18px; color: #237344; display: block; margin-bottom: 12px;">R$ 8.000,00</strong>
+        <button type="button" class="selecionar-produto-sustentavel" data-produto="Kit de energia solar rural" data-preco="8000" style="width: 100%; border: 1px solid #237344; background: transparent; color: #237344; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 8px;">Selecionar produto</button>
+        <a href="https://netshopinformatica.com.br" target="_blank" style="display:block; text-align:center; background:#237344; color:#fff; font-weight:bold; text-decoration:none; padding: 10px; border-radius: 6px; font-size: 14px;">Compre já</a>
       </div>
     </article>
 
-    <article class="produto-sustentavel">
-      <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=900&q=80" alt="Reciclagem e descarte correto de eletrônicos" loading="lazy">
-      <div class="produto-sustentavel-conteudo">
-        <span class="produto-sustentavel-categoria">Descarte responsável</span>
-        <h4>Organização e descarte de eletrônicos</h4>
-        <p>Serviço de organização, separação e encaminhamento adequado de equipamentos sem uso.</p>
-        <strong>R$ 450,00</strong>
-        <button type="button" class="selecionar-produto-sustentavel" data-produto="Organização e descarte de eletrônicos" data-preco="450">Selecionar produto</button>
+    <!-- 5. DESCARTE RESPONSÁVEL -->
+    <article class="produto-sustentavel" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between;">
+      <img src="image_YlQhLq.png" alt="Reciclagem e descarte correto de eletrônicos" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px;">
+      <div class="produto-sustentavel-conteudo" style="margin-top: 12px; flex-grow: 1; display: flex; flex-direction: column;">
+        <span class="produto-sustentavel-categoria" style="font-size: 12px; color: #666; text-transform: uppercase;">Descarte responsável</span>
+        <h4 style="margin: 8px 0;">Organização e descarte de eletrônicos</h4>
+        <p style="font-size: 14px; color: #444; margin: 0 0 12px 0; flex-grow: 1;">Serviço de organização, separação e encaminhamento adequado de equipamentos sem uso.</p>
+        <strong style="font-size: 18px; color: #237344; display: block; margin-bottom: 12px;">R$ 450,00</strong>
+        <button type="button" class="selecionar-produto-sustentavel" data-produto="Organização e descarte de eletrônicos" data-preco="450" style="width: 100%; border: 1px solid #237344; background: transparent; color: #237344; padding: 10px; border-radius: 6px; font-weight: bold; cursor: pointer; transition: 0.2s; margin-bottom: 8px;">Selecionar produto</button>
+        <a href="https://netshopinformatica.com.brblog/" target="_blank" style="display:block; text-align:center; background:#237344; color:#fff; font-weight:bold; text-decoration:none; padding: 10px; border-radius: 6px; font-size: 14px;">Compre já</a>
       </div>
     </article>
 
-    <article class="produto-sustentavel">
-      <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=900&q=80" alt="Treinamento de segurança digital da equipe" loading="lazy">
-      <div class="produto-sustentavel-conteudo">
-        <span class="produto-sustentavel-categoria">Capacitação</span>
-        <h4>Treinamento de segurança digital</h4>
-        <p>Capacitação para a equipe reconhecer golpes, proteger senhas e utilizar os sistemas com segurança.</p>
-        <strong>R$ 600,00</strong>
-        <button type="button" class="selecionar-produto-sustentavel" data-produto="Treinamento de segurança digital" data-preco="600">Selecionar produto</button>
-      </div>
-    </article>
-  </div>
+    <!-- 6. CAPACITAÇÃO -->
+    <article class="produto-sustentavel" style="border: 1px solid #ccc; border-radius: 8px; padding: 16px; display: flex; flex-direction: column; justify-content: space-between;">
+      <img src="image_3aGYbp.png" alt="Treinamento de segurança digital da equipe" loading="lazy" style="width: 100%; height: 150px; object-fit: cover; border-radius: 4px;">
+      <div class="produto-sustentavel-conteudo" style="margin-top: 12px; flex-grow: 1; display: flex; flex-direction: column;">
+        <span class="produto-sustentavel-categoria" style="font-size: 12px; color: #666; text-transform: uppercase;">Capacitação</span>
+        <h4 style="margin: 8px 0;">Treinamento de segurança digital</h4>
+        <p style="font-size: 14px; color: #444; margin: 0 0 12px 0; flex-grow: 1;">Capacitação para a equipe reconhecer golpes, proteger senhas e utilizar os sistemas com segurança.</p>
 
-  <div id="produto-sustentavel-selecao" aria-live="polite" style="margin-top:24px; padding:18px; border:1px solid #cfe4d4; border-radius:12px; background:#edf7ef;">
-    <p style="margin:0 0 8px;"><strong>Produto selecionado:</strong> <span id="nome-produto-sustentavel">Nenhum produto selecionado.</span></p>
-    <p style="margin:0 0 12px;"><strong>Valor ilustrativo:</strong> <span id="preco-produto-sustentavel">R$ 0,00</span></p>
-    <button type="button" id="enviar-produto-para-orcamento" style="border:0; border-radius:8px; padding:12px 16px; background:#237344; color:#fff; font-weight:700; cursor:pointer;">Usar no orçamento</button>
-  </div>
-</div>
+
 
 <style>
   .catalogo-produtos-grid {
